@@ -13,7 +13,8 @@ namespace ConsoleApp1
             /*
              *Stwórz tablicę jednowymiarową i wywołają ją
              * z zastosowaniem pętli.
-             * Jak jeszcze można wypisać tablicę, przypisać dla niej wartości?
+             * Jak jeszcze można wypisać tablicę, 
+             * przypisać dla niej wartości?
              */
             int[] tablica1 = new int[4];
             tablica1[0] = 0;

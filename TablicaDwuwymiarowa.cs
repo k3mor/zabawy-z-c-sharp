@@ -13,7 +13,7 @@ namespace TablicaDwuwymiarowa
             /*
              * Stwórz prostą tablicę dwuwymiarową
              * i wywołaj ją.
-             *Czy możesz, podobnie jak w tablicy jednowymiarowej
+             *Czy możesz, podobnie jak w tablicy jednowymiarowej,
              * użyć wcześniej zadeklarowanych zmiennych?
              */
             int[,] TabDwuwymiarowa = { {1,2}, {13,14}, {130,140} };

@@ -12,7 +12,7 @@ namespace ConsoleApp2
         {
             /* 
              * Zabawa 1: stwórz prosty kalkulator w lini poleceń,
-             * który przelicza stopnie Celcjusza na Fahranheta i odwrotnie
+             * który przelicza stopnie Celcjusza na Fahranheta i odwrotnie,
              * bez sprawdzania błedów. 
              */ 
             //Przeliczenie z Fahrenheita na Celcjusza
