@@ -62,7 +62,7 @@ namespace TablicaDoskonalenie
                 Console.WriteLine("{0,4}", elementTablicy);
             }
             Console.ReadKey();
-
+            //Zadanie dodatkowe
             string[][] imiona = {
                 new string[] {"Ala", "Tomek", "Jasiu"},
                 new string[] {"Ola", "Romek", "Jasiu", "Maciej"},
