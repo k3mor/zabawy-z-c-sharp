@@ -1,0 +1,25 @@
+ Console.WriteLine("Wpisz pierwszą liczbę - niezbyt dużą proszę :) : ");
+            int n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Wpisz drugą liczbę - także niezbyt dużą proszę :) : ");
+            int n2 = int.Parse(Console.ReadLine());
+            int[][] liczby1 = { new int[] { n1, n2 }, new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 } };
+
+            //int[] liczby2 = { 1, 1, 1 };
+            //foreach (int liczba in liczby1[0])
+            //{
+            //    System.Console.Write(liczba);
+            //}
+            int kolejna = 0;
+            Console.WriteLine("**************");
+            Console.WriteLine("Mnożenie przez pierwszą wprowdzoną liczbę: ");
+            foreach (int liczba1 in liczby1[1])
+            {
+                System.Console.Write("Na pozycji: " + kolejna++ + " jest wartość:  " +  liczby1[0][0] * liczba1 + "\n");
+            }
+            Console.WriteLine("\n");
+            Console.WriteLine("Mnożenie przez drugą wprowdzoną liczbę: ");
+            foreach (int liczba1 in liczby1[1])
+            {
+                System.Console.Write(liczby1[0][1] * liczba1 + "\n");
+            }
+             Console.ReadLine();
